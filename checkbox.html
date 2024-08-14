@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html level checkbox</title>
+</head>
+<body>
+    <form>
+        <!--for checkbox-->
+    <input type="checkbox" name="age" id="age" />
+    <lebel for="age">Do you love the fruits?</lebel>
+   <!-- for radio buttons-->
+    <br>
+<div>
+    <input type="radio" name="fruit" id="mango" value="mango" />
+    <lebel for="mango">mango</lebel>
+    <input type="radio" name="fruit" id="cherry"  value="cherry"/>
+    <lebel for="cherry">Cherry</lebel>
+    <input type="radio" name="fruit" id="apple"  value="apple"/>
+    <lebel for="apple">Apple</lebel>
+</div>
+<div>
+    Choose the vegetables:
+    <input type="checkbox" name="Tomato" id="vegetables" />
+    <lebel for="Tomato">Tomato</lebel>
+    <input type="checkbox" name="cauliflower" id="vegetables" />
+    <lebel for="cauliflower">cauliflower</lebel>
+    <input type="checkbox" name="carrot" id="vegetables" />
+    <lebel for="carrot">carrot</lebel>
+</div>
+<!--for select-input element-->
+<div>
+    Choose your profession:
+    <select name="profession" id="profession">
+<option>select your option</option>
+        <option value="student">Student</option>
+<option value="dev">developer</option>
+</select>
+</div>
+<!--for-input range-->
+<div>
+    <lebel for="vol">Select your volume level: </lebel>
+    <input type="range" id="volume" min="0" max="100" name="volume" step="10" />
+</div>
+<!--text area--->
+<div>
+    <lebel for="feedback">Please give your valuable feedback : </lebel>
+<textarea id="feedback" name="feedback" placeholder="give your feedback"></textarea>
+</div>
+<button>submit</button>
+</form>
+</body>
+</html>
